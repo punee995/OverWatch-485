@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -g2 -Wall -Os -c -DUSE_DEBUGGER  -DUSE_HAL_DRIVER  -DSTM32L151xB  -DSTM32L151CBU6 -DLORAWAN_DEBUGGER -IE:\Projects\LoRa_Modbus\Software\src\liblightmodbus\include\lightmodbus -IE:\Projects\LoRa_Modbus\Software\src\system\crypto -IE:\Projects\LoRa_Modbus\Software\src\radio -IE:\Projects\LoRa_Modbus\Software\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc -IE:\Projects\LoRa_Modbus\Software\src\boards\RAK811BreakBoard\cmsis -IE:\Projects\LoRa_Modbus\Software\src\peripherals -IE:\Projects\LoRa_Modbus\Software\src\boards\RAK811BreakBoard -IE:\Projects\LoRa_Modbus\Software\src\liblightmodbus\include\lightmodbus\slave -IE:\Projects\LoRa_Modbus\Software\src\boards\mcu\stm32\cmsis -IE:\Projects\LoRa_Modbus\Software\src\liblightmodbus\include\lightmodbus\master -IE:\Projects\LoRa_Modbus\Software\src\mac -IE:\Projects\LoRa_Modbus\Software\src\liblightmodbus\include\lightmodbus\addons -IE:\Projects\LoRa_Modbus\Software\src\mac\region -IE:\Projects\LoRa_Modbus\Software\src\system -IE:\Projects\LoRa_Modbus\Software\src -IE:\Projects\LoRa_Modbus\Software\src\boards\mcu\stm32">
+      <target file="uart.o" lastModified="1735641a1a3">
+         <source file="..\..\..\..\..\src\system\uart.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_cortex.o" lastModified="1735641bec0">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="gpio-board.o" lastModified="1735641aef7">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\gpio-board.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="uart-board.o" lastModified="1735641c5e5">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\uart-board.c" lastModified="166d43cf123"/>
+      </target>
+      <target file="board.o" lastModified="1735641aaee">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\board.c" lastModified="169b0bbdd0e"/>
+      </target>
+      <target file="sx1276.o" lastModified="17356418a47">
+         <source file="..\..\..\..\..\src\radio\sx1276\sx1276.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="LoRaMacCrypto.o" lastModified="1735641d1fe">
+         <source file="..\..\..\..\..\src\mac\LoRaMacCrypto.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_flash.o" lastModified="1735641a315">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="slave.o" lastModified="1735641c4eb">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\slave.c" lastModified="1669f2cd35b"/>
+      </target>
+      <target file="RegionUS915-Hybrid.o" lastModified="1735641d9a6">
+         <source file="..\..\..\..\..\src\mac\region\RegionUS915-Hybrid.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="i2c.o" lastModified="17356418c95">
+         <source file="..\..\..\..\..\src\system\i2c.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_rcc_ex.o" lastModified="1735641ad5b">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="sx1276-board.o" lastModified="1735641c1fe">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\sx1276-board.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_rtc_ex.o" lastModified="1735641ac75">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc_ex.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="RegionKR920.o" lastModified="1735641d622">
+         <source file="..\..\..\..\..\src\mac\region\RegionKR920.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="sregs.o" lastModified="17356418f3d">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\slave\sregs.c" lastModified="1669f2d3144"/>
+      </target>
+      <target file="gps.o" lastModified="1735641c973">
+         <source file="..\..\..\..\..\src\system\gps.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_iwdg.o" lastModified="1735641dbba">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_iwdg.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal.o" lastModified="1735641b0c6">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_gpio.o" lastModified="1735641a261">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_spi_ex.o" lastModified="17356419e33">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="lightmodbus.o" lastModified="17356419c4a">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\lightmodbus.c" lastModified="1669f2c672b"/>
+      </target>
+      <target file="RegionAS923.o" lastModified="1735641a9cc">
+         <source file="..\..\..\..\..\src\mac\region\RegionAS923.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="aes.o" lastModified="1735641b769">
+         <source file="..\..\..\..\..\src\system\crypto\aes.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="LoRaMac.o" lastModified="1735641bdee">
+         <source file="..\..\..\..\..\src\mac\LoRaMac.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="cmac.o" lastModified="1735641b683">
+         <source file="..\..\..\..\..\src\system\crypto\cmac.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="delay.o" lastModified="17356418add">
+         <source file="..\..\..\..\..\src\system\delay.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="examine.o" lastModified="17356418fc8">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\addons\examine.c" lastModified="1669f2d5e8b"/>
+      </target>
+      <target file="master.o" lastModified="1735641d6cc">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\master.c" lastModified="1669f2cf1dd"/>
+      </target>
+      <target file="RegionCommon.o" lastModified="173564190a4">
+         <source file="..\..\..\..\..\src\mac\region\RegionCommon.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="RegionIN865.o" lastModified="1735641cdbc">
+         <source file="..\..\..\..\..\src\mac\region\RegionIN865.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_rtc.o" lastModified="1735641a0ef">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_rcc.o" lastModified="1735641c739">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="gpio.o" lastModified="1735641b33c">
+         <source file="..\..\..\..\..\src\system\gpio.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_pwr.o" lastModified="1735641b42c">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="rtc-board.o" lastModified="1735641b5d9">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\rtc-board.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="eeprom-board.o" lastModified="1735641c10e">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\eeprom-board.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="scoils.o" lastModified="1735641bf9c">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\slave\scoils.c" lastModified="1669f2e7578"/>
+      </target>
+      <target file="stm32l1xx_hal_adc.o" lastModified="1735641d14a">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_flash_ex.o" lastModified="173564198bc">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="utilities.o" lastModified="17356419ed3">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\utilities.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="Region.o" lastModified="17356418d99">
+         <source file="..\..\..\..\..\src\mac\region\Region.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="timer.o" lastModified="173564197df">
+         <source file="..\..\..\..\..\src\system\timer.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_dma.o" lastModified="1735641dd53">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="fifo.o" lastModified="1735641c2da">
+         <source file="..\..\..\..\..\src\system\fifo.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="spi-board.o" lastModified="1735641cf24">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\spi-board.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="mbcoils.o" lastModified="1735641ce52">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\master\mbcoils.c" lastModified="1669f2d7993"/>
+      </target>
+      <target file="mbregs.o" lastModified="1735641c03c">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\master\mbregs.c" lastModified="1669f2d92f6"/>
+      </target>
+      <target file="printf.o" lastModified="1735641b008">
+         <source file="..\..\..\components\coocox-master\Retarget_printf\source\printf.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="RegionAU915.o" lastModified="1735641db24">
+         <source file="..\..\..\..\..\src\mac\region\RegionAU915.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="RegionEU868.o" lastModified="17356419bd2">
+         <source file="..\..\..\..\..\src\mac\region\RegionEU868.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="gps-board.o" lastModified="1735641a5da">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\gps-board.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="mpregs.o" lastModified="1735641dc64">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\master\mpregs.c" lastModified="1669f2dc4c1"/>
+      </target>
+      <target file="startup_stm32l151xb.o" lastModified="1735641d9c4">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\cmsis\arm-gcc\startup_stm32l151xb.s" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_pwr_ex.o" lastModified="1735641cfce">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_uart.o" lastModified="1735641cc42">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="RegionUS915.o" lastModified="1735641b26a">
+         <source file="..\..\..\..\..\src\mac\region\RegionUS915.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="system_stm32l1xx.o" lastModified="1735641a3a1">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\cmsis\system_stm32l1xx.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="mpcoils.o" lastModified="17356419952">
+         <source file="..\..\..\..\..\src\liblightmodbus\src\master\mpcoils.c" lastModified="1669f2dad33"/>
+      </target>
+      <target file="adc-board.o" lastModified="17356418803">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\adc-board.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="adc.o" lastModified="1735641c7ed">
+         <source file="..\..\..\..\..\src\system\adc.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_adc_ex.o" lastModified="17356418574">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc_ex.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="sysIrqHandlers.o" lastModified="17356418b73">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\sysIrqHandlers.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="main.o" lastModified="1735641a76a">
+         <source file="..\..\..\..\..\src\apps\classA\main.c" lastModified="16fb9294ce2"/>
+      </target>
+      <target file="stm32l1xx_hal_usart.o" lastModified="1735641d3ca">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_usart.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_i2c.o" lastModified="173564196bd">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2c.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="lis3dh.o" lastModified="1735641a53b">
+         <source file="..\..\..\..\..\src\peripherals\lis3dh.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="stm32l1xx_hal_spi.o" lastModified="1735641922b">
+         <source file="..\..\..\..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi.c" lastModified="164c4ccaba8"/>
+      </target>
+      <target file="i2c-board.o" lastModified="1735641a828">
+         <source file="..\..\..\..\..\src\boards\RAK811BreakBoard\i2c-board.c" lastModified="164c4ccaba8"/>
+      </target>
+   </processor>
+</history>

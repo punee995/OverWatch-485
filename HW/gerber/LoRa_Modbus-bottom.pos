@@ -1,0 +1,20 @@
+### Module positions - created on 04/17/19 07:18:55 ###
+### Printed by Pcbnew version kicad (5.0.0)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val        Package                               PosX       PosY       Rot  Side
+C14       100nF      C_0402                           -100.0125  -112.7975   90.0000  bottom
+C15       10nF       C_0402                           -102.0445  -112.7975   90.0000  bottom
+C16       100nF      C_0402                            -99.1108  -121.4794  270.0000  bottom
+C17       10uF       C_0805                           -101.0910  -121.9294  270.0000  bottom
+C18       100nF      C_1812                            -92.0750  -127.6604    0.0000  bottom
+C19       100nF      C_0402                            -83.1596  -113.8086  270.0000  bottom
+C20       10nF       C_0402                            -84.6963  -112.7164   90.0000  bottom
+C21       100nF      C_0402                            -85.0138  -122.9145  270.0000  bottom
+C22       10uF       C_0805                            -78.8670  -123.1740  270.0000  bottom
+JP2       TR         SMT-JUMPER_2_NO_SILK              -69.0372  -111.6432  270.0000  bottom
+L2        2k@100Mhz  L_0805                            -81.8134  -121.7930    0.0000  bottom
+L3        2k@100Mhz  L_0805                            -81.8134  -124.5235    0.0000  bottom
+R18       120R       R_0402                            -68.9407  -115.4582   90.0000  bottom
+U5        ADM2587E   SOIC-20W_7.5x12.8mm_Pitch1.27mm   -92.0750  -117.7671  180.0000  bottom
+## End

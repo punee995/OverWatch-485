@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name hlk_pm-0x)(type KiCad)(uri ${KIPRJMOD}/lib/hlk_pm-0x.pretty)(options "")(descr ""))
+  (lib (name RAK811)(type KiCad)(uri ${KIPRJMOD}/lib/RAK811.pretty)(options "")(descr ""))
+  (lib (name RAGB)(type KiCad)(uri ${KIPRJMOD}/lib/RAGB.pretty)(options "")(descr ""))
+  (lib (name swra227e)(type KiCad)(uri ${KIPRJMOD}/lib/swra227e.pretty)(options "")(descr ""))
+  (lib (name U.FL-R-SMT)(type KiCad)(uri "D:/Hardware_Projects(PCB)/kicad_lib/U.FL-R-SMT/U.FL-R-SMT.pretty")(options "")(descr ""))
+  (lib (name img)(type KiCad)(uri ${KIPRJMOD}/img)(options "")(descr ""))
+)

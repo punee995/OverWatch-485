@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name LoRa_Modbus)(type Legacy)(uri E:/Projects/LoRa_Modbus/lib/LoRa_Modbus.lib)(options "")(descr ""))
+  (lib (name antennatiny)(type Legacy)(uri ${KIPRJMOD}/lib/antennatiny.lib)(options "")(descr ""))
+  (lib (name LoRa_Modbus-rescue)(type Legacy)(uri ${KIPRJMOD}/LoRa_Modbus-rescue.lib)(options "")(descr ""))
+)
