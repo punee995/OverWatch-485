@@ -1,4 +1,4 @@
-# OverWatch-IN865!
+# OverWatch-485!
 
 Project **OverWatch** initially created for GUVNL R&D Department to Monitor Modbus 3-phase meters over LoRaWAN (IN865). Hardware is developed under KiCAD5. Firmware was written under CoIDE.
 
