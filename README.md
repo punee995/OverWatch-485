@@ -12,7 +12,9 @@ Project **OverWatch** initially created for GUVNL R&D Department to Monitor Modb
  - [x] Internal Battery / Charger
  - [ ] Reduced Power Consumption
 
- 
+<img src="https://github.com/punee995/OverWatch-485/blob/master/HW/img/TOP.jpg" width="300"><img src="https://github.com/punee995/OverWatch-485/blob/master/HW/img/BOTTOM.jpg" width="300">
+
+<img src="https://github.com/punee995/OverWatch-485/blob/master/HW/img/CASE.jpg" width="300">
 
 ## Software Specification
 1.  Add the AT command, the command list is shown below;
