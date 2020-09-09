@@ -42,7 +42,9 @@ Project **OverWatch** initially created for GUVNL R&D Department to Monitor Modb
 
  - [ ] Reduce Power Consumption (Currently ~45mA ).
 	 - For this Add mosfet to Modbus transreciver.
- - [ ] Add Switch for Device Function as Maseter/Slave
+ - [ ] Add Switch for Device Function as Maseter/Slave.
+ - [ ] Protection Devices such as MOV and Fuse(@Mains side).
+ 
 
 ## Software 
 
